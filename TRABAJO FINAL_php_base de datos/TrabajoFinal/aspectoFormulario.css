@@ -1,0 +1,130 @@
+body{
+
+  background-image: url('fondoPantalla.jpg');
+}
+
+
+form{
+  background: #FFF;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+
+
+header {
+  width: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+header span {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.contact {
+  padding: .8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.contact label, .contact input{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;   
+}
+
+.contact label {
+  font-weight: 700;
+}
+
+.contact input:not([type='submit']) {
+  border: none;
+  border-bottom: 2px solid #ff165d;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  background: #000000;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+input[type='reset'] {
+  padding: 10px;
+  background: #000000;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+
+}
+
+button {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+select {
+  background-color: #ff0080;
+  color: white;
+  padding: 8px;
+  width: 150px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+ 
+  appearance: button;
+  outline: none;
+}
+select option {
+  padding: 30px;
+}
+
+input[type=file] {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #000000;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  ransition: background .2s ease-in-out;*/
+}
+
+
+
